@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5328867e34396b442af2d572587c425a, type: 3}
+  m_Name: SuperSpinner
+  m_EditorClassIdentifier: 
+  spinnerName: GOLDEN SPIN
+  spinnerType: 2
+  spinnerTopText: SUPER ZONE!
+  spinnerBottomText: Jackpot Rewards
+  spinnerSprite: {fileID: 21300000, guid: f9896dba81b8fc44ca394298db710b48, type: 3}
+  needleSprite: {fileID: 21300000, guid: 2f1b4a6bfc21aac418e8b04c5d2b9cc0, type: 3}
+  slotItems: []
+  poolSlotItems:
+  - itemData: {fileID: 11400000, guid: 995a87b36af72eb4580f1d73a93f2529, type: 2}
+    spawnChance: 1
+    maxCount: 3
+    countRange: {x: 200, y: 1000}
+  - itemData: {fileID: 11400000, guid: c6e6e1b6b8f4339478c2c265f9bcbc71, type: 2}
+    spawnChance: 1
+    maxCount: 2
+    countRange: {x: 1000, y: 5000}
+  - itemData: {fileID: 11400000, guid: c245872d701f6ed40b7eaf9ed835d217, type: 2}
+    spawnChance: 0.6
+    maxCount: 1
+    countRange: {x: 1, y: 2}
+  - itemData: {fileID: 11400000, guid: 499517f9db95d4543911836408b672c2, type: 2}
+    spawnChance: 0.3
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: d64e52fe6c7c5c347b73aa6a89997095, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: b5f8d20daa29622488792c48f6cdf5bd, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: e09e12b94ef879640ab4a98c9a7b3dfd, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 3}
+  - itemData: {fileID: 11400000, guid: b7de4a77c8245034ab2a12abbfddedaf, type: 2}
+    spawnChance: 0.7
+    maxCount: 2
+    countRange: {x: 10, y: 50}
+  - itemData: {fileID: 11400000, guid: 0bcab9a632734224ba7b7b033f14cfdf, type: 2}
+    spawnChance: 0.4
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: bd08d136ca5c33f419063d3ecd675e04, type: 2}
+    spawnChance: 0.6
+    maxCount: 2
+    countRange: {x: 2, y: 5}
+  randomizeItems: 1
+  id: f0e9d8c7-supr-4b3a-a2c1-d0e1f2a3b4c5

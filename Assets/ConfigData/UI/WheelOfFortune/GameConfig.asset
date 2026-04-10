@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c34a815f38257045b1d7cacb2b04162, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  reviveCost: 25
+  startingGems: 100
+  gemItemData: {fileID: 11400000, guid: 995a87b36af72eb4580f1d73a93f2529, type: 2}

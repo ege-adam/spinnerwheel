@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30984f47f49c706458e7d1d5180091e1, type: 3}
+  m_Name: BaseballCapEaster
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 89f62f7a1b3e2204d888059c0272b1b8, type: 3}
+  itemName: Baseball Cap Easter
+  itemType: 100
+  id: 4b474d93-64ef-4c9f-a9f2-923624c328a9

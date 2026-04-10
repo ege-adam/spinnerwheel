@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5328867e34396b442af2d572587c425a, type: 3}
+  m_Name: SafeSpinner
+  m_EditorClassIdentifier: 
+  spinnerName: SafeSpinner
+  spinnerType: 1
+  spinnerTopText: Safe Zone!
+  spinnerBottomText: No Bombs Here
+  spinnerSprite: {fileID: 21300000, guid: 729467d2ca7981b4c9e54c89a0886ecb, type: 3}
+  needleSprite: {fileID: 21300000, guid: c6829c3d86126a945a15079f99b5d0e4, type: 3}
+  slotItems: []
+  poolSlotItems:
+  - itemData: {fileID: 11400000, guid: 995a87b36af72eb4580f1d73a93f2529, type: 2}
+    spawnChance: 0.8
+    maxCount: 2
+    countRange: {x: 50, y: 200}
+  - itemData: {fileID: 11400000, guid: c6e6e1b6b8f4339478c2c265f9bcbc71, type: 2}
+    spawnChance: 0.9
+    maxCount: 2
+    countRange: {x: 200, y: 1000}
+  - itemData: {fileID: 11400000, guid: 2df957945c124694c971c5147e13b92c, type: 2}
+    spawnChance: 0.6
+    maxCount: 1
+    countRange: {x: 1, y: 2}
+  - itemData: {fileID: 11400000, guid: e09e12b94ef879640ab4a98c9a7b3dfd, type: 2}
+    spawnChance: 0.4
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: e24a135a375e4fa4fa06a4275e9ba14a, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: 0bcab9a632734224ba7b7b033f14cfdf, type: 2}
+    spawnChance: 0.4
+    maxCount: 1
+    countRange: {x: 1, y: 1}
+  - itemData: {fileID: 11400000, guid: bd08d136ca5c33f419063d3ecd675e04, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 3}
+  - itemData: {fileID: 11400000, guid: 75009e171a054ab4daf195c76486940d, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 1, y: 2}
+  - itemData: {fileID: 11400000, guid: c38335704dcd70b419f513a9d6612710, type: 2}
+    spawnChance: 0.6
+    maxCount: 2
+    countRange: {x: 5, y: 20}
+  - itemData: {fileID: 11400000, guid: 7b864a6c4eece1249b305c632c0dc05d, type: 2}
+    spawnChance: 0.5
+    maxCount: 1
+    countRange: {x: 5, y: 15}
+  randomizeItems: 1
+  id: a1b2c3d4-safe-4f5a-b6c7-d8e9f0a1b2c3

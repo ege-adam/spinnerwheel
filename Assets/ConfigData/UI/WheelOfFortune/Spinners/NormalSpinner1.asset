@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5328867e34396b442af2d572587c425a, type: 3}
+  m_Name: NormalSpinner1
+  m_EditorClassIdentifier:
+  spinnerName: NormalSpinner1
+  spinnerType: 0
+  spinnerTopText: Spin to Win!
+  spinnerBottomText: Watch out for Bombs
+  spinnerSprite: {fileID: 21300000, guid: 5d43a8d2d23ec57419c2a49fbfcb2d33, type: 3}
+  needleSprite: {fileID: 21300000, guid: 08ad97441cf7a564cb4f2880dfd71ca2, type: 3}
+  slotItems:
+  - itemData: {fileID: 11400000, guid: c6e6e1b6b8f4339478c2c265f9bcbc71, type: 2}
+    count: 500
+  - itemData: {fileID: 11400000, guid: 995a87b36af72eb4580f1d73a93f2529, type: 2}
+    count: 50
+  - itemData: {fileID: 11400000, guid: 68116933247f3d0439a984e4a4a746db, type: 2}
+    count: 1
+  - itemData: {fileID: 11400000, guid: e24a135a375e4fa4fa06a4275e9ba14a, type: 2}
+    count: 1
+  - itemData: {fileID: 11400000, guid: c38335704dcd70b419f513a9d6612710, type: 2}
+    count: 10
+  - itemData: {fileID: 11400000, guid: 2df957945c124694c971c5147e13b92c, type: 2}
+    count: 1
+  - itemData: {fileID: 11400000, guid: c6e6e1b6b8f4339478c2c265f9bcbc71, type: 2}
+    count: 200
+  - itemData: {fileID: 11400000, guid: bd08d136ca5c33f419063d3ecd675e04, type: 2}
+    count: 2
+  poolSlotItems: []
+  randomizeItems: 0
+  id: n1a2b3c4-norm-4d5e-a6f7-081920304050
