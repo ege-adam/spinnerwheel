@@ -791,7 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 278f8e3227590784d9183b4ddf9ef8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minFlickSpeed: 50
+  minFlickSpeed: 200
   maxFlickSpeed: 2000
   flickMultiplier: 5
   wheelCenter: {fileID: 452674054}

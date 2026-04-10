@@ -45,7 +45,9 @@ namespace Scripts.UI.Spinner
             if (IsActive) return;
             if (sliceCount <= 0) return;
 
-            currentSpeed = flickSpeed;
+            currentSpeed = flickSpeed + (flickSpeed * UnityEngine.Random.Range(0.3f, 2f)); // add some random variation to prevent cheating by flicking at the exact same speed repeatedly
+            currentSpeed += Mathf.Sign(flickSpeed) * snapThreshold * UnityEngine.Random.Range(10f, 50f); // ensure it always exceeds snap threshold for a satisfying spin
+
             isSpinning = true;
             lastSliceIndex = GetCurrentSliceIndex();
         }
