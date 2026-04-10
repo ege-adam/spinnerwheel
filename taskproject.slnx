@@ -14,6 +14,8 @@
   <Project Path="Unity.ScriptableBuildPipeline.csproj" />
   <Project Path="Unity.InternalAPIEngineBridge.013.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Unity.Recorder.csproj" />
+  <Project Path="Unity.Recorder.Base.csproj" />
   <Project Path="Unity.PlasticSCM.Editor.csproj" />
   <Project Path="Unity.VisualScripting.Core.Editor.csproj" />
   <Project Path="Unity.VisualScripting.Flow.Editor.csproj" />
@@ -43,4 +45,5 @@
   <Project Path="Unity.InternalAPIEditorBridge.013.csproj" />
   <Project Path="TriInspector.Editor.csproj" />
   <Project Path="UnityEditor.CacheServer.csproj" />
+  <Project Path="Unity.Recorder.Editor.csproj" />
 </Solution>

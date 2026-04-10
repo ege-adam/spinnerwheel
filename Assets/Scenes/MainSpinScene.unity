@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheelTransform: {fileID: 452674054}
-  friction: 0.999
+  friction: 0.98
   snapThreshold: 6
   snapDuration: 0.5
   clickAudio: {fileID: 266674169}
@@ -792,8 +792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minFlickSpeed: 50
-  maxFlickSpeed: 8000
-  flickMultiplier: 200
+  maxFlickSpeed: 2000
+  flickMultiplier: 5
   wheelCenter: {fileID: 452674054}
 --- !u!4 &589078278
 Transform:
